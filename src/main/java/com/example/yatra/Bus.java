@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 public class Bus {
-    @GetMapping("/mens_clothing")
+    @GetMapping("/book_buses")
     public String getData(){
         return  "purchase tickets";
     }
